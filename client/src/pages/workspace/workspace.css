@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.heading{
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 5vh;
+    border-bottom: 3px solid black;
+    width: 25vh;
+    margin: auto;
+    margin-top: 5vh;
+}
