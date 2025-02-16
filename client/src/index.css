@@ -1,0 +1,24 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Lastica';
+    src: url('./assets/Lastica.ttf') format('truetype'); /* Update the path as needed */
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, #602696, #385fa1);
+    font-family: 'Lastica', sans-serif;
+}
+.main-header{
+    background: linear-gradient(to right, #602696, #385fa1);
+    width: 100vw;
+}

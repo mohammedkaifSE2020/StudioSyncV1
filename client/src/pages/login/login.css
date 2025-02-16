@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 80vw;
+    height: 85vh;
+    background-color: aliceblue;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    background: linear-gradient(to right, #385fa1, #602696);
+    font-family: 'Lastica', sans-serif;
+    border-radius: 20px;
+}
+.right img{
+    border: 2px solid #385fa1;
+    border-radius: 20px;
+    
+}
+.left{
+    height: 70vh;
+}
+.left form input,button{
+    width: 19vw;
+    height: 7vh;
+    padding: 2px;
+    margin-bottom: 1px;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+button{
+    background-color: bisque;
+    font-family: 'Lastica', sans-serif;
+    padding-left: 10px;
+}
+button:hover{
+    background-color:#731ac7;
+}
