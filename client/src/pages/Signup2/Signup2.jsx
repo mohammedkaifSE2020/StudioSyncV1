@@ -36,7 +36,7 @@ function Signup() {
     })
   }
 
-  //console.log(formData)
+  console.log(formData)
 
   const handleRegister = async(e)=>{
     e.preventDefault();
@@ -48,6 +48,7 @@ function Signup() {
         body : JSON.stringify(formData),
       })
       const data = await res.json();
+      console.log(data);
       
       if(data.success){
         setMessage("Registration Successfull!!,redirecting...")
